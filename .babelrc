@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "corejs": 3
+      }
+    ],
+    // 使用babel编译ts https://babeljs.io/docs/babel-preset-typescript
+    "@babel/preset-typescript",
+    [
+      "@babel/react",
+      {
+        /* 自动导入（import）JSX 转换而来的函数 */
+        "runtime": "automatic"
+      }
+    ]
+  ]
+}
