@@ -12,7 +12,7 @@
     [
       "@babel/react",
       {
-        /* 自动导入（import）JSX 转换而来的函数 */
+        /* 自动导入（import）JSX 转换而来的函数 文件无需单独引入React */
         "runtime": "automatic"
       }
     ]

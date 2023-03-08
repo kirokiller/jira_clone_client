@@ -28,7 +28,7 @@
     "isolatedModules": true,
     "noEmit": true,
   },
-  // wepack.config use typescript https://webpack.js.org/configuration/configuration-languages/#typescript
+  // wepack.config with typescript https://webpack.js.org/configuration/configuration-languages/#typescript
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
